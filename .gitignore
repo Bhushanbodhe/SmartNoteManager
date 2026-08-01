@@ -1,0 +1,28 @@
+# Database & Storage
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+smartnotes.db
+
+# Backend Build & IDE
+backend/target/
+backend/.mvn/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.iml
+
+# Frontend Dependencies & Build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/dist-ssr/
+frontend/*.local
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
